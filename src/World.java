@@ -1,9 +1,7 @@
 public class World {
     public static void main(String[] args) {
-        System.out.println("Hello Ruby");
-        int income=500;
-        int bonus=10;
-        System.out.println("所持金"+(income+bonus));
-        System.out.printf("所持金:%x+%x=%x\n", income, bonus, income + bonus);
+        for(int i=0; i<args.length; i++) {
+            System.out.printf("%d: %s\n", i, args[i]);
+        }
     }
 }

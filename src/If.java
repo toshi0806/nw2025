@@ -20,8 +20,20 @@ class If {
         }
         */
        int q=3;
-       if(q=3) {
+       if(q==3) {
         System.out.println("three");
        }
+
+       String s;
+       int a=5;
+       /*
+       if(a%2 == 0) {
+        s = "Even";
+       }else{
+        s = "Odd";
+       }
+        */
+       s= a%2==0 ? "Even" : "Odd";
+       System.out.println(s);
    }
 }

@@ -25,10 +25,13 @@ else
 end
 
 q=5
-if q==3
+
+z=if q==3
   puts "Three"
 end
 puts "Three" if q==3
 
 puts "Not Three" if q!=3
 puts "Not Three" unless q==3
+
+pp z
