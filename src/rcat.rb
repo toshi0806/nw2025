@@ -1,3 +1,4 @@
+#! /usr/bin/env ruby
 #
 # コマンドラインで指定した全てのファイルの各行を１行づつ画面に表示
 # ruby rcat.rb a.txt b.txt c.rb
