@@ -10,4 +10,3 @@ ARGV.each do |arg|
     end 
   end
 end
-
